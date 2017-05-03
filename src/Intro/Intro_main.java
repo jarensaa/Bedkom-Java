@@ -6,5 +6,6 @@ package Intro;
 public class Intro_main {
     public static void main(String[] args) {
         System.out.println("Hello Bedkom!");
+        System.out.println("hei bedkom");
     }
 }
