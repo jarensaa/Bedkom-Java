@@ -12,9 +12,9 @@ public class OtherPackageClass {
     @Override
     public String toString() {
         return "To String for the OtherPackageClass class: \n" +
-//                " privateVariable = "   + parent.privateVariable   + "\n" +
-//                " defaultVariable = "   + parent.defaultVariable   + "\n" +
-//                " protectedVariable = " + parent.protectedVariable + "\n" +
+                " privateVariable = "   + parent.privateVariable   + "\n" +
+                " defaultVariable = "   + parent.defaultVariable   + "\n" +
+                " protectedVariable = " + parent.protectedVariable + "\n" +
                 " publicVariable = "    + parent.publicVariable   + "\n \n";
     }
 }

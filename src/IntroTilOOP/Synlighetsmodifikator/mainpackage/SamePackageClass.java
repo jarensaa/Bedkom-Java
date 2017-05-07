@@ -10,7 +10,7 @@ public class SamePackageClass {
     @Override
     public String toString() {
         return "To String for the SamePackageClass class: \n" +
-//                " privateVariable = "   + parent.privateVariable   + "\n" +
+                " privateVariable = "   + parent.privateVariable   + "\n" +
                 " defaultVariable = "   + parent.defaultVariable   + "\n" +
                 " protectedVariable = " + parent.protectedVariable + "\n" +
                 " publicVariable = "    + parent.publicVariable   + "\n \n";
