@@ -7,15 +7,16 @@ import IntroTilOOP.Synlighetsmodifikator.secondpackage.ChildInOtherPackage;
 import IntroTilOOP.Synlighetsmodifikator.secondpackage.OtherPackageClass;
 
 /**
- * Målet til denne oppgaven er å skjenne hvordan synlighetsmodifikatorene beskytter variabler.
+ * Målet med denne oppgaven er å skjønne hvordan synlighetsmodifikatorene beskytter variabler.
  *
- * I denne oppgaven har klassen 'Parent' en rekke variabler med forskjellig synelighetsmodifikatorer.
- * Klassene 'Child' og 'OtherPackageClass' prøver å få tilgang til disse.
+ * I denne oppgaven har klassen 'Parent' en rekke variabler med forskjellig synelighetsmodifikator.
+ * Klassene 'Child', 'ChildInOtherPackage' og 'OtherPackageClass' prøver å få tilgang til disse.
  *
- * I hver klasse finnes det en toString metode. Denne prøver å returnere alle parent sine variabler, men som dere ser så
- * sliter de andre objektene med å gjøre dette.
+ * I hver klasse finnes det en toString metode. Denne prøver å returnere variablene til parent,
+ * men som dere ser så sliter klassene med å gjøre dette.
  *
  * Oppgaven:
+ * Se på toString i hver av klassene.
  * Svar på og diskuter sammen:  Hvodan påvirkes hver av dem av synlighetsmodifikatorene?
  *                              Hvordan fordeler har hver av synlighetsmodifikatoerene?
  *                              Bruksområder?
